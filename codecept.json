@@ -14,6 +14,13 @@
     "I": "./steps_file.js"
   },
   "bootstrap": false,
-  "mocha": {},
+  "mocha": {
+    "reporterOptions": {
+      "reportDir": "e2e/reports",
+      "inlineAssets": true,
+      "reportPageTitle": "E2E Test Reports",
+      "reportTitle": "E2E Test Reports"
+    }
+	},
   "name": "moon"
 }

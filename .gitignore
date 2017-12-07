@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 output/
+e2e/reports/
