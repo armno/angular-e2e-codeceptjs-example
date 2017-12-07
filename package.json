@@ -8,7 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "codeceptjs": "codeceptjs",
+    "wd:start": "webdriver-manager update && webdriver-manager start --standalone"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +34,7 @@
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "codeceptjs": "^1.0.3",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
