@@ -8,6 +8,8 @@
       "driver": "hosted",
       "browser": "chrome",
       "rootElement": "app-root"
+    },
+    "Mochawesome": {
     }
   },
   "include": {
@@ -21,6 +23,6 @@
       "reportPageTitle": "E2E Test Reports",
       "reportTitle": "E2E Test Reports"
     }
-	},
+  },
   "name": "moon"
 }
