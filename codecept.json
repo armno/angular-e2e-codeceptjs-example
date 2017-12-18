@@ -3,11 +3,10 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "Protractor": {
+    "Puppeteer": {
       "url": "http://localhost:4200",
-      "driver": "hosted",
-      "browser": "chrome",
-      "rootElement": "app-root"
+      "rootElement": "app-root",
+			"show": false
     },
     "Mochawesome": {
     }
